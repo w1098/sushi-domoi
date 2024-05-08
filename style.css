@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(black,#FFB017);
+    
+}
+
+header {
+    background-image: url("1h.jpg");
+    padding-bottom: 180px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+header a {
+    background-color: rgba(255, 71, 102, 0.842);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    border-radius: 15px;
+    padding-left: 200px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+a img {
+    width: 35px;
+    padding-right: 7px;
+}
+
+.NUM {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navlink {
+    text-decoration: none;
+    border: 1px solid #FFB017;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    font-size: 45px;
+    background-color: #FFB017;
+    color: black;
+}
+
+.navv {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.kapec {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.ce {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ob {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.simjk {
+    border: 1px solid white;
+    width: 520px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.maibdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    flex-wrap: wrap;
+}
+
+.normalno {
+    display: flex;
+    justify-content: center;
+}
+
+.navlink:hover {
+   color: #FFB017;
+   border: 2px solid #FFB017;
+   background-color: rgb(0, 0, 0);
+}
+
+.simjk::after {
+   display: block;
+   content: url();
+   width: 1px;
+   height: 1px;
+}
+
+.ZxCW {
+    padding-left: 140px;
+}
+
+.fav {
+    width: 50px;
+}
+
+.fav:hover {
+    background-color: red;
+     border: red;
+     border-radius: 15px;
+}
+
+.favo:visited {
+    background-color: red;
+}
+
+.fag {
+   font-size: 45px;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(92, 102, 5);
+   height: 50px;
+}
+
+footer {
+    background-color: rgb(200, 250, 62);
+}
